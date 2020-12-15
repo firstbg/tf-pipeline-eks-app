@@ -1,6 +1,5 @@
 
 # Organization
-# organizations_shared_account_id = "235297331187"
 organizations_shared_account_id = "351515912571"
 # organizations_dev_account_id    = ""
 # organizations_stg_account_id    = ""

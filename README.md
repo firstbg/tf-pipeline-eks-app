@@ -18,7 +18,7 @@ This is a sample Terraform code to deploy AWS Elastic Kubernetes Service cluster
 Clone the repository
 
 ```shell
-git clone https://github.com/iv-st-me/terraform-eks-pipeline.git
+git clone https://github.com/firstbg/tf-pipeline-eks-app.git
 ```
 
 ```shell

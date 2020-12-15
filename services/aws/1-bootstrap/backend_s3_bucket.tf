@@ -1,7 +1,6 @@
 resource "aws_s3_bucket" "terraform_lock" {
   # bucket = var.bucket
-  # bucket = "terraform-eks-pipeline"
-  bucket = "terraform-pipeline-eks-app"
+  bucket = "tf-pipeline-eks-app"
   versioning {
     enabled = true
   }
