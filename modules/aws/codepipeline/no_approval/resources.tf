@@ -60,7 +60,7 @@ resource "aws_codebuild_project" "this" {
   )
   description = "${var.environment_name}_codebuild_project"
 
-  build_timeout = "20"
+  build_timeout = "60"
   service_role  = var.pipelinebuild_role_arn
 
   artifacts {
