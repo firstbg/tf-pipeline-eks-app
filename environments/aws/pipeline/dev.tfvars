@@ -12,7 +12,7 @@ common_tags = {
 # Pipeline
 pipeline_resource_prefix                    = "devpipeline"
 pipelinebuild_resource_prefix               = "devbuild"
-pipeline_s3_bucket                          = "terraform-eks-pipeline"
+pipeline_s3_bucket                          = "tf-pipeline-eks-app"
 iam_policy_resource_prefix                  = "devpipeline"
 environment_name                            = "shared"
 pipeline_tags                               = {}
@@ -29,8 +29,8 @@ pipelinebuild_iam_role_max_session_duration = 7200 # seconds
 pipelinebuild_iam_role_permissions_boundary = ""
 pipelinebuild_iam_role_tags                 = {}
 approval                                    = "False"
-github_repo_owner                           = "iv-st-me"
-github_repo                                 = "terraform-eks-pipeline"
+github_repo_owner                           = "firstbg"
+github_repo                                 = "tf-pipeline-eks-app"
 github_repo_branch                          = "master"
 github_repo_oauth_token                     = "MmZhZTA1YmE2ZGFlZmZmNjVlOGZlMWRiZTVmZTZmN2Y5MjI4YmNlNAo="
 # github_repo_oauth_token                     = "NmZkZTk2YzFmOGVlYjhlNGM5ZmMyNzJkOTFmZTlkZTcwYTZkMWFmYwo="

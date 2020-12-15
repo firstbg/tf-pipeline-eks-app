@@ -22,7 +22,7 @@ git clone https://github.com/firstbg/tf-pipeline-eks-app.git
 ```
 
 ```shell
-cd terraform-eks-pipeline
+cd tf-pipeline-eks-app
 ```
 
 Change the configuration files (example for dev environment):
@@ -83,12 +83,12 @@ Solution utilises shared Terraform state stored in AWS S3, and shared state lock
 
 Configuration is happening during init process and the config is in file backend.config with sample content:
 ```shell
-bucket               = "terraform-eks-pipeline"
+bucket               = "tf-pipeline-eks-app"
 encrypt              = true
 key                  = "vpcnet/tf-state.json"
 region               = "eu-central-1"
 workspace_key_prefix = "environment"
-dynamodb_table       = "terraform_state_lock"
+dynamodb_table       = "terraform_state"
 ```
 
 Working with different Environments and saving/sharing their state is done with using Terraform Workspace:
